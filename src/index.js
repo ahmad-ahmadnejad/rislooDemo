@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App";
 import "./tailwind.css";
 import "./Style/font.css";
+import "./Style/ovverrides.css";
 import { BrowserRouter } from "react-router-dom";
 import MainLayout from "./Layout/MainLayout";
 const root = ReactDOM.createRoot(document.getElementById("root"));
