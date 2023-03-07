@@ -5,14 +5,20 @@ import "./index.css";
 import App from "./App";
 import "./tailwind.css";
 import "./Style/font.css";
+import { BrowserRouter } from "react-router-dom";
+import MainLayout from "./Layout/MainLayout";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ConfigProvider
-    direction="rtl"
-    theme={{
-      algorithm: theme.defaultAlgorithm,
-    }}
-  >
-    <App />
-  </ConfigProvider>
+  <BrowserRouter>
+    <ConfigProvider
+      direction="rtl"
+      theme={{
+        algorithm: theme.defaultAlgorithm,
+      }}
+    >
+      <MainLayout>
+        <App />
+      </MainLayout>
+    </ConfigProvider>
+  </BrowserRouter>
 );

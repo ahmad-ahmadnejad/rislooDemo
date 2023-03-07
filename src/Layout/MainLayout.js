@@ -1,7 +1,7 @@
 import { Layout } from "antd";
 import Header from "../Components/Header";
 import Sider from "../Components/Sider";
-const MainLayout = () => {
+const MainLayout = ({ children }) => {
   const { Content } = Layout;
   return (
     <Layout
@@ -24,7 +24,7 @@ const MainLayout = () => {
               minHeight: 360,
             }}
           >
-            محتوا
+            {children}
           </div>
         </Content>
       </Layout>
