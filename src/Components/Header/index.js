@@ -9,7 +9,7 @@ const Header = () => {
         theme="light"
         mode="horizontal"
         defaultSelectedKeys={["2"]}
-        items={HeaderItems}
+        items={HeaderItems()}
       />
     </AntdHeader>
   );
