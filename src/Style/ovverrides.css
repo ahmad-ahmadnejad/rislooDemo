@@ -1,3 +1,7 @@
 .ant-card .ant-card-actions > li {
   margin: 0 !important;
 }
+
+.ant-btn.ant-btn-primary.ant-btn-rtl {
+  background-color: rgb(39, 174, 96);
+}
