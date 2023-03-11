@@ -1,5 +1,7 @@
+import { Fragment } from "react";
+
 const Cart = () => {
-  return <>سبد خرید</>;
+  return <Fragment>هنوز توسعه داده نشده..:(</Fragment>;
 };
 
 export default Cart;
